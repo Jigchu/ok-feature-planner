@@ -9,7 +9,7 @@ const { x, y, style } = useDraggable(task, {
 </script>
 
 <template>
-    <div ref="task" :style="style" , style="position: fixed;">
+    <div ref="task" class="task" :style="style">
         <h3>Im a task</h3>
         <p>Im cool and draggable :)</p>
     </div>
